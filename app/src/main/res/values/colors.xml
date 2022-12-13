@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondary_text_color">#9AA2AF</color>
+    <!--ColorTrends -->
+    <color name="darkBrown">#bc6c25</color>
+    <color name="lightBrown">#dda15e</color>
+    <color name="lightWhite">#fefae0</color>
+    <color name="darkGreen">#283618</color>
+    <color name="lightGreen">#606c38</color>
+    <!-- MainActivity CardView -->
+    <color name="circular_image_border_color">#757575</color>
+    <color name="item_plant_description_text_color">#606060</color>
+
+    <!-- DetailScreen -->
+    <color name="detail_screen_description_text_color">#757575</color>
+
+
+</resources>

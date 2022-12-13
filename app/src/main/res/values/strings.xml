@@ -1,0 +1,23 @@
+<resources>
+
+    <!--Variablen für XML -->
+    <string name="app_name">VMAGardener</string>
+    <string name="mainActivity_no_plant_add">Noch keine Pflanze eingefügt.</string>
+    <string name="editTextHintName">Name</string>
+    <string name="editTextHintDescription">Beschreibung</string>
+    <string name="editTextHintDate">Pflanzdatum</string>
+    <string name="editTextHintIntWater">Intervall Wässerung</string>
+    <string name="editTextHintIntFertilize">Intervall Düngung</string>
+    <string name="editTextHintIntCut">Intervall Schneiden</string>
+    <string name="editTextHintLocation">Ort</string>
+    <string name="addPlantSelectCurrentLocation">Aktuelle Position auswählen</string>
+    <string name="text_add_image">Bild hinzufügen</string>
+    <string name="btn_text_save">SPEICHERN</string>
+    <string name="text_add_QR">QR-Code einlesen</string>
+
+    <!-- Variablen für AddPlantActivity -->
+    <string name="addPlantActivityAddPhoto">Bitte Aktion auswählen</string>
+    <string name="addPlantActivityAddPhotoOne">Foto aus Galerie</string>
+    <string name="addPlantActivityAddPhotoTwo">Foto aufnehmen</string>
+    <string name="addPlantActivityAddPhotoError">Fehlgeschlagen</string>
+</resources>

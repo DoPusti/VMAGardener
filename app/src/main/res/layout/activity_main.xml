@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPlantList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvNoRecordsAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/mainActivity_no_plant_add"
+        android:textSize="@dimen/mainActivity_no_plant_add_size"
+        android:visibility="visible" />
+
+    <!-- Aus material Design -->
+    <!--Neue Vectorgrafik
+    -> New
+    -> Vector Asset
+    -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddPlant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fabMargin"
+        android:src="@drawable/ic_action_add_24dp" />
+</FrameLayout>
